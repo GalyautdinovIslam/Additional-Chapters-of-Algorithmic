@@ -1,4 +1,4 @@
-package ru.itis.acoa_15_02_2023.task_1_vaccine;
+package ru.itis.acoa_2023_02_15.task_1_vaccine;
 
 import java.util.Scanner;
 import java.util.Stack;
