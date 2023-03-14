@@ -84,7 +84,7 @@ public class Task_2_Glass_Balls {
 
     private static void printTable() {
         System.out.printf("Требуемое количество попыток: %s\n", data.get(0).get(data.get(0).size() - 1));
-        int spaces = (int) (Math.floor(Math.log10(Math.pow(2, k))) + 1);
+        int spaces = (int) (Math.floor(Math.max(Math.log10(Math.pow(2, k)), Math.log10(k)) + 1));
         for (int j = data.get(0).size() - 1; j >= 0; j--) {
             for (int i = 0; i < k; i++) {
                 System.out.printf(String.format("%%%ss ", spaces), data.get(i).get(j));
